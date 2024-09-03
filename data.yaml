@@ -1,0 +1,13 @@
+train: /home/guanran/robotic_flower/bee_detection/yolov8/train/images
+val: /home/guanran/robotic_flower/bee_detection/yolov8/valid/images
+test: /home/guanran/robotic_flower/bee_detection/yolov8/test/images
+
+nc: 4
+names: ['bee', 'drone', 'pollenbee', 'queen']
+
+roboflow:
+  workspace: matt-nudi
+  project: honey-bee-detection-model-zgjnb
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/matt-nudi/honey-bee-detection-model-zgjnb/dataset/4
